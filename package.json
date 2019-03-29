@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/lisong981174580/node#readme",
   "dependencies": {
+    "ali-rds": "^3.3.0",
+    "co": "^4.6.0",
     "moment": "^2.24.0",
     "mysql": "^2.16.0"
   }

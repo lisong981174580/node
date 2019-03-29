@@ -17,21 +17,8 @@ connection.query('INSERT INTO article(gmt_create,title,content,author,\`describe
    console.log('[INSERT ERROR] - ',err.message);
    return;
   }        
-
  console.log('--------------------------INSERT----------------------------');     
  console.log('INSERT ID:',result);        
  console.log('-----------------------------------------------------------------\n\n');  
 });
 
-
-//查询
-// connection.query('select * from article',function (err, result) {
-//   if(err){
-//     console.log('[SELECT ERROR] - ',err.message);
-//     return;
-//   }
-
-//  console.log('--------------------------SELECT----------------------------');
-//  console.log(result);
-//  console.log('------------------------------------------------------------\n\n');  
-// });
